@@ -52,7 +52,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UHGWXUNJ
+DocumentUniqueId=YEKQWEXE
 
 [Document2]
 DocumentPath=..\..\libs\sch\General\diodes.SchLib
@@ -86,7 +86,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RGVIMYIM
+DocumentUniqueId=QNBWOJOT
 
 [Document4]
 DocumentPath=..\..\libs\sch\General\resistors.SchLib
@@ -256,7 +256,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AGUEYUVH
+DocumentUniqueId=VWLRMHHX
 
 [Document14]
 DocumentPath=..\..\libs\sch\Buttons\SW-TACT-4PIN.SchLib
@@ -274,6 +274,46 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QRUTHJOG
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PCB_Project\PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for PCB_Project\PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for PCB_Project\PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for PCB_Project\PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for PCB_Project\PCB.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for PCB_Project\PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for PCB_Project\PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for PCB_Project\PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for PCB_Project\PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for PCB_Project\PCB.RUL
+DItemRevisionGUID=
 
 [SearchPath1]
 Path=..\..\libs\pcb\*.*
@@ -437,7 +477,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=EPSONE98490 (L805 Series)
+TargetPrinter=HP LaserJet P1006
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -553,7 +593,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=EPSONE98490 (L805 Series)
+TargetPrinter=HP LaserJet P1006
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -633,7 +673,7 @@ Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=EPSONE98490 (L805 Series)
+TargetPrinter=HP LaserJet P1006
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -1322,7 +1362,7 @@ ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=capacitors.SchLib
 ComponentDesignItemID0=CAP_NPOL
 ComponentSymbolReference0=CAP_NPOL
-ComponentUpdate0=0
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=diodes.IntLib
@@ -1332,9 +1372,9 @@ ComponentUpdate1=0
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=diodes.SchLib
-ComponentDesignItemID2=GENERAL_DUAL
-ComponentSymbolReference2=GENERAL_DUAL
-ComponentUpdate2=1
+ComponentDesignItemID2=DIODE_DUAL_1
+ComponentSymbolReference2=DIODE_DUAL_1
+ComponentUpdate2=0
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=diodes.SchLib
@@ -1519,142 +1559,148 @@ ModelType2=PCBLIB
 ModelName2=0805
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=1206
+ModelName3=1.25-8AW
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=1210
+ModelName4=1206
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=12X12-SMT
+ModelName5=1210
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=2010
+ModelName6=12X12-SMT
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=2611
+ModelName7=2010
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=40S-0.5SH
+ModelName8=2611
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=6S-0.5SH
+ModelName9=40S-0.5SH
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=C0402
+ModelName10=6S-0.5SH
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=C0603
+ModelName11=C0402
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=C0805
+ModelName12=C0603
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=C1206
+ModelName13=C0805
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=C1210
+ModelName14=C1206
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=C1812
+ModelName15=C1210
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=C1825
+ModelName16=C1812
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=C2220
+ModelName17=C1825
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=C2225
+ModelName18=C2220
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=DBV005_N
+ModelName19=C2225
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=DF13EA-30DP-1.25V
+ModelName20=CDRH3D16
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=DTSM3xNB
+ModelName21=CDRH6D28
 ModelUpdate21=1
 ModelType22=PCBLIB
-ModelName22=IND_12.5x12.5
+ModelName22=DBV005_N
 ModelUpdate22=1
 ModelType23=PCBLIB
-ModelName23=IND_19.2X19.2
+ModelName23=DF13EA-30DP-1.25V
 ModelUpdate23=1
 ModelType24=PCBLIB
-ModelName24=IND_8X8
+ModelName24=DTSM3xNB
 ModelUpdate24=1
 ModelType25=PCBLIB
-ModelName25=IND0603
+ModelName25=IND_12.5x12.5
 ModelUpdate25=1
 ModelType26=PCBLIB
-ModelName26=IND0805
+ModelName26=IND_19.2X19.2
 ModelUpdate26=1
 ModelType27=PCBLIB
-ModelName27=IND1206
+ModelName27=IND_8X8
 ModelUpdate27=1
 ModelType28=PCBLIB
-ModelName28=IND1210
+ModelName28=IND0603
 ModelUpdate28=1
 ModelType29=PCBLIB
-ModelName29=IND1812
+ModelName29=IND0805
 ModelUpdate29=1
 ModelType30=PCBLIB
-ModelName30=L5
+ModelName30=IND1206
 ModelUpdate30=1
 ModelType31=PCBLIB
-ModelName31=MF03A_L
+ModelName31=IND1210
 ModelUpdate31=1
 ModelType32=PCBLIB
-ModelName32=MF03A_M
+ModelName32=IND1812
 ModelUpdate32=1
 ModelType33=PCBLIB
-ModelName33=MF03A_N
+ModelName33=L5
 ModelUpdate33=1
 ModelType34=PCBLIB
-ModelName34=PLS-8
+ModelName34=MF03A_L
 ModelUpdate34=1
 ModelType35=PCBLIB
-ModelName35=R0603
+ModelName35=MF03A_M
 ModelUpdate35=1
 ModelType36=PCBLIB
-ModelName36=R0805
+ModelName36=MF03A_N
 ModelUpdate36=1
 ModelType37=PCBLIB
-ModelName37=Rotary Encoder
+ModelName37=PSOP-8
 ModelUpdate37=1
 ModelType38=PCBLIB
-ModelName38=SMA
+ModelName38=R0603
 ModelUpdate38=1
 ModelType39=PCBLIB
-ModelName39=SMB
+ModelName39=R0805
 ModelUpdate39=1
 ModelType40=PCBLIB
-ModelName40=SOD-80C
+ModelName40=Rotary Encoder
 ModelUpdate40=1
 ModelType41=PCBLIB
-ModelName41=SOT-223
+ModelName41=SMA
 ModelUpdate41=1
 ModelType42=PCBLIB
-ModelName42=SOT-23-3
+ModelName42=SMB
 ModelUpdate42=1
 ModelType43=PCBLIB
-ModelName43=SOT-23-5
+ModelName43=SOD-80C
 ModelUpdate43=1
 ModelType44=PCBLIB
-ModelName44=SOT-23-6
+ModelName44=SOT-223
 ModelUpdate44=1
 ModelType45=PCBLIB
-ModelName45=TSSOP-8
+ModelName45=SOT-23-3
 ModelUpdate45=1
 ModelType46=PCBLIB
-ModelName46=W2H05
+ModelName46=SOT-23-5
 ModelUpdate46=1
+ModelType47=PCBLIB
+ModelName47=SOT-23-6
+ModelUpdate47=1
+ModelType48=PCBLIB
+ModelName48=W2H05
+ModelUpdate48=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType47=SI
-ModelName47=Connector
-ModelUpdate47=1
+ModelType49=SI
+ModelName49=Connector
+ModelUpdate49=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
